@@ -5,6 +5,10 @@ import TransactionsPage from "../pages/TransactionsPage/TransactionsPage";
 import AccountsPage from "../pages/AccountsPage/AccountsPage";
 import SettingsPage from "../pages/SettingsPage/SettingsPage";
 import HelpPage from "../pages/HelpPage/HelpPage";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 export {
     LandingPage,
     OverviewPage,
